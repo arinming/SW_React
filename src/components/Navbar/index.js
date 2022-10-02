@@ -13,7 +13,7 @@ const Navbar = () => {
                 <NavLink to="/sheet-list" activeStyle>
                     악보 리스트
                 </NavLink>
-                <NavLink to="/about" activeStyle>
+                <NavLink to="/convert" activeStyle>
                     악보 변환
                 </NavLink>
                 <NavLink to="/about" activeStyle>

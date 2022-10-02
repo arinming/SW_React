@@ -27,7 +27,7 @@ export const NavLink = styled(Link)`
     border: none;
     outline: none;
     cursor: pointer;
-    font-size: 50px
+    fontSize: 50px
     transition: all 0.2s ease-in-out;
     text-decoration: none;
     &:hover{
@@ -39,7 +39,6 @@ export const NavLink = styled(Link)`
 export const Bars = styled(FaBars)`
     display: none;
     color: #fff;
-
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
@@ -55,7 +54,6 @@ export const NavMenu = styled.div`
     display: flex;
     align-items: center;
     margin-rights: -24px;
-
     @media screen and (max-width: 768px) {
         display: none;
     }
@@ -65,7 +63,6 @@ export const NavBtn = styled.nav`
     display: flex;
     align-items: center;
     margin-right: 24px;
-
     @media screen and (max-width: 768px) {
         display:none
     }
@@ -81,7 +78,6 @@ export const NavBtnLink = styled(Link)`
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
-
     &:hover{
         transition: all 0.2s ease-in-out;
         background: #fff;
