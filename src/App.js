@@ -5,6 +5,7 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/Convert';
 import Home from './pages/Home';
 import Convert from './pages/Convert';
+import SheetList from './pages/SheetList';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/convert' element={<Convert />} /> 
           <Route path='/sign-up' element={<SignUp />} />
           <Route path='/sign-in' element={<SignIn />} />
+          <Route path='/sheet-list' element={<SheetList />} />
         </Routes>
       </BrowserRouter>
     </RecoilRoot>

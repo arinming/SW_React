@@ -10,7 +10,7 @@ const Navbar = () => {
             </NavLink2>
             <Bars />
             <NavMenu>
-                <NavLink to="/about" activeStyle>
+                <NavLink to="/sheet-list" activeStyle>
                     악보 리스트
                 </NavLink>
                 <NavLink to="/about" activeStyle>

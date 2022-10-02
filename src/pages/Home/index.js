@@ -27,7 +27,7 @@ const Home = () => {
               height='117px'
               fontSize='50px'
               onClick={() => {
-                navigate('/sign-in');
+                navigate('/sheet-list');
               }}
             >
               악보 리스트 페이지
