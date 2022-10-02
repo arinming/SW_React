@@ -14,7 +14,8 @@ import { style } from '@mui/system';
 const Convert = () => {
   return (
       <MainPageContainer>
-        <Navbar />        
+        <Navbar />
+        
         <Content>
           <ContentBox>
             <Titles

@@ -30,3 +30,4 @@ const UploadBtnBox = styled(Button)`
 `;
 
 export default UploadBtn;
+

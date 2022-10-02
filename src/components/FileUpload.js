@@ -22,7 +22,7 @@ const FileUpload = () => {
         try {
             setLoading(true);
 
-            const res = await axios.post('http://3.35.216.190/',formData, {
+            const res = await axios.post('http://52.79.222.1/convert/upload/',formData, {
             });
             console.log(res.data)
             const { fileName, filePath } =res.data;

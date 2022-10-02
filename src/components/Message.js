@@ -20,4 +20,6 @@ Message.prototype = {
     msg: PropTypes.string.isRequired
 }
 
+
 export default Message
+

@@ -9,7 +9,7 @@ function Sheet() {
   const fetchData = async () => {
     console.log('api요청');
     try {
-      const response = await Axios.get(`http://52.79.222.1/api/sheetmusics`, { withCredentials: true });
+      const response = await Axios.get(`http://3.35.216.190/api/sheetmusics`, { withCredentials: true });
       setTodoList(response);
       console.log(todoList);
     } catch (e) {

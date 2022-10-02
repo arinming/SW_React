@@ -7,6 +7,7 @@ import Users from '../../components/Users';
 import Titles from '../../components/Titles';
 import styled from '@emotion/styled';
 import Sheet from '../../components/Sheet';
+import Profile from '../../components/Profile';
 
 
 
@@ -38,9 +39,10 @@ const SheetList = () => {
         title='기다린 만큼, 더'
         body='검정치마'
        />
-       
+       <Users />
        </ContentBox>
        </MainPageContainer>
+       <Profile />
     </div>
   )
 }
